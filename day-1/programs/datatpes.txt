@@ -1,0 +1,6 @@
+prmitive datatypes
+1.Integer - 4 bytes -->unsigned - 2^32-1 bits -->signed 2^31-1 bits
+2.float - 4 bytes upto 7 decimal -->double - upto 15 degits
+3.Char-
+4.Boolean-true or flase 1 byte
+
