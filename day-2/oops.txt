@@ -1,0 +1,80 @@
+OOPs, or Object-oriented programming is an approach or a programming pattern where the programs are structured around objects rather than functions and logic. It makes the data partitioned into two memory areas, i.e., data and functions, and helps make the code flexible and modular.
+
+objects has behaviour and proprtties
+
+objects is a instance of class
+
+empty class size =1
+
+class:user defined datatypes
+    int a;
+    string str;
+    chat ch;
+
+
+
+acccess modifiers
+1.private;(default)
+2.public
+3.protected
+
+
+getter and setter
+
+
+class person
+{
+	char name[20];
+	int id;
+public:
+	void getdetails(){}
+};
+
+int main()
+{
+person p1; 
+}
+
+
+Encapsulation: In normal terms, Encapsulation is defined as wrapping up of data and information under a single unit. In Object-Oriented Programming, Encapsulation is defined as binding together the data and the functions that manipulate them.
+Abstraction: Data abstraction is one of the most essential and important features of object-oriented programming in C++. Abstraction means displaying only essential information and hiding the details. Data abstraction refers to providing only essential information about the data to the outside world, hiding the background details or implementation.
+Polymorphism: The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.
+Inheritance: The capability of a class to derive properties and characteristics from another class is called Inheritance. Inheritance is one of the most important features of Object-Oriented Programming.
+
+Class: A class in C++ is the building block that leads to Object-Oriented programming. It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A C++ class is like a blueprint for an object.
+An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
+
+// C++ program to demonstrate
+// accessing of data members
+
+#include <bits/stdc++.h>
+using namespace std;
+class Name
+{
+	// Access specifier
+	public:
+
+	// Data Members
+	string name;
+
+	// Member Functions()
+	void printname()
+	{
+	cout << "name is: " << name;
+	}
+};
+
+int main() {
+
+	// Declare an object of class geeks
+	Name obj1;
+
+	// accessing data member
+	obj1.name = "Abhi";
+
+	// accessing member function
+	obj1.printname();
+	return 0;
+}
+
+
